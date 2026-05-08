@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+build/
+.env*
+.DS_Store
+*.log
+.vercel
+.claude/
+tsconfig.tsbuildinfo
