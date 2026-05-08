@@ -8,3 +8,4 @@ build/
 .vercel
 .claude/
 tsconfig.tsbuildinfo
+public/hero-bg-original.mp4
