@@ -7,9 +7,9 @@ import Testimonial from "@/components/Testimonial";
 const principles = [
   { title: "Senior team only", body: "Every engineer who touches your project has shipped a real product before. No outsourced churn, no mid-level management of juniors." },
   { title: "Working demos beat slides", body: "We would rather show you a half-broken prototype than a polished slide. Every Friday brings something you can click." },
-  { title: "Accessibility is the floor", body: "WCAG 2.1 AA is a baseline for us, not a deliverable. If it does not work for everyone, it is not done." },
+  { title: "Full-stack delivery", body: "From frontend to backend to blockchain. We handle the entire stack so you get one team, one process, one shipping date." },
   { title: "Performance is a feature", body: "Sub-2-second LCP, 95+ Lighthouse, no exceptions. The fastest site is also the cheapest to run." },
-  { title: "We pick stacks, not religions", body: "Next.js, Swift, Rust, plain HTML — whatever ships your product fastest with the lowest long-term cost." },
+  { title: "We pick stacks, not religions", body: "React, Node, Solidity, React Native — whatever ships your product fastest with the lowest long-term cost." },
   { title: "Transparent always", body: "You see the repo, the staging URL, the burndown, and the bill. We work with you, not for you." },
 ];
 
@@ -19,7 +19,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="A senior engineering team that picks projects, not lanes."
-        sub="IconEdge Technology Ltd was founded to close the gap between web, mobile, and hardware studios. One team, one process, one shipping date."
+        sub="IconEdge Technologies Ltd was founded to close the gap between web, mobile, and blockchain studios. One team, one process, one shipping date."
       />
       <Stats />
       <section className="px-7 max-w-[1400px] mx-auto py-24 max-md:px-5 max-md:py-16">

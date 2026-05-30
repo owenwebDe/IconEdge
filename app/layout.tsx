@@ -1,27 +1,26 @@
 import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import { Instrument_Serif } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Cursor from "@/components/Cursor";
 import WakeUpBoot from "@/components/WakeUpBoot";
 
-const instrument = Instrument_Serif({
+const garamond = EB_Garamond({
   subsets: ["latin"],
-  variable: "--font-instrument",
-  weight: ["400"],
-  style: ["italic", "normal"],
+  variable: "--font-garamond",
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "IconEdge Technology Ltd — software, mobile, hardware",
+  title: "IconEdge Technologies Ltd — Web, Mobile & Blockchain Development",
   description:
-    "We build frontend and backend platforms, native iOS and Android apps, and hardware-integrated systems. Software, hardware, and the integration in between.",
-  keywords: ["IconEdge", "frontend", "backend", "mobile apps", "iOS", "Android", "IoT", "hardware", "software development"],
+    "We build frontend and backend platforms, cross-platform mobile apps, and blockchain solutions. Web, mobile, and blockchain development under one roof.",
+  keywords: ["IconEdge", "frontend", "backend", "mobile apps", "React", "React Native", "blockchain", "smart contracts", "Web3", "software development"],
   openGraph: {
-    title: "IconEdge Technology Ltd",
+    title: "IconEdge Technologies Ltd",
     description: "We build the edge of technology.",
     type: "website",
   },
@@ -31,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable} ${instrument.variable}`}
+      className={`${garamond.variable} ${GeistMono.variable}`}
     >
       <body className="loading">
         <Cursor />

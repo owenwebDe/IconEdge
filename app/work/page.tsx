@@ -3,12 +3,12 @@ import Reveal from "@/components/Reveal";
 import CTABand from "@/components/CTABand";
 
 const cases = [
-  { id: "quill", name: "Quill", sub: "fintech onboarding", year: "2025", tags: ["Web", "Mobile"], outcome: "Cut KYC drop-off by 62%" },
-  { id: "helix", name: "Helix", sub: "clinical IoT platform", year: "2025", tags: ["Hardware", "Cloud"], outcome: "14,000 devices in production" },
-  { id: "nori", name: "Nori", sub: "civic services portal", year: "2024", tags: ["Web", "Government"], outcome: "2.1M residents served" },
-  { id: "linea", name: "Linea", sub: "agency design system", year: "2024", tags: ["Web", "Design system"], outcome: "32 client sites unified" },
-  { id: "beacon", name: "Beacon", sub: "fleet telematics", year: "2024", tags: ["Hardware", "Mobile"], outcome: "CAN-bus + driver app" },
-  { id: "tessera", name: "Tessera", sub: "logistics dashboard", year: "2023", tags: ["Web", "Data"], outcome: "Real-time fleet visibility" },
+  { id: "eatumy", name: "Eatumy", sub: "shareholders panel", year: "2026", tags: ["Web", "Dashboard"], outcome: "Secure admin management system" },
+  { id: "dexnew", name: "DexNew", sub: "token tracker", year: "2026", tags: ["Telegram Bot", "Crypto"], outcome: "Real-time token listing alerts" },
+  { id: "jkg", name: "Just Keep Gambling", sub: "crypto gaming", year: "2025", tags: ["Web3", "Blockchain"], outcome: "Full Web3 gaming platform" },
+  { id: "pulse", name: "Pulse Alerts", sub: "buy bot", year: "2025", tags: ["Telegram Bot", "Crypto"], outcome: "Real-time purchase notifications" },
+  { id: "csons", name: "C-Sons", sub: "global enterprises", year: "2025", tags: ["Web", "Business"], outcome: "Logistics company website" },
+  { id: "equivault", name: "EquiVault", sub: "full stack platform", year: "2026", tags: ["Web", "Full Stack"], outcome: "Dubai-based web application" },
 ];
 
 export default function WorkPage() {
@@ -17,7 +17,7 @@ export default function WorkPage() {
       <PageHero
         eyebrow="Selected work"
         title="A sample of what we have shipped."
-        sub="Six cases from the past two years across web, mobile, and hardware. Each one is a long story — these are the highlights."
+        sub="Six cases from the past two years across web, mobile, blockchain, and bots. Each one is a long story — these are the highlights."
       />
       <section className="px-7 max-w-[1400px] mx-auto pb-24 max-md:px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

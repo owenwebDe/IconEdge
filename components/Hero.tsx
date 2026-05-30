@@ -102,11 +102,11 @@ export default function Hero() {
           </div>
           <span className="hero-wordmark flex flex-col items-start max-[420px]:items-center leading-none min-w-0">
             <span className="font-sans font-semibold text-bg text-[clamp(36px,5.5vw,76px)] tracking-[-0.03em] leading-none">
-              IconEdge
+              IconEdge Technology Limited
             </span>
-            <span className="font-mono text-bg/70 text-[clamp(10px,0.85vw,13px)] tracking-[0.18em] uppercase mt-2">
+          {/*   <span className="font-mono text-bg/70 text-[clamp(10px,0.85vw,13px)] tracking-[0.18em] uppercase mt-2">
               Technology Limited
-            </span>
+            </span> */}
           </span>
         </div>
 

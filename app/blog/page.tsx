@@ -3,11 +3,11 @@ import Reveal from "@/components/Reveal";
 import CTABand from "@/components/CTABand";
 
 const posts = [
-  { date: "2026-04-22", read: "8 min", title: "Designing for the edge: when hardware meets web", category: "Engineering", excerpt: "Notes from shipping a connected device to 14,000 hospital beds, and what changes when the cloud is no longer the source of truth." },
-  { date: "2026-03-14", read: "6 min", title: "The case for plain CSS in 2026", category: "Frontend", excerpt: "Cascade layers, container queries, and :has() have quietly closed the gap with utility frameworks. We made a decision tree." },
-  { date: "2026-02-28", read: "10 min", title: "How we cut a fintech onboarding flow from 12 minutes to 4", category: "Product", excerpt: "A teardown of the Quill onboarding redesign — what we measured, what we changed, and what surprised us." },
-  { date: "2026-01-09", read: "5 min", title: "Why we moved firmware to Rust (mostly)", category: "Embedded", excerpt: "Two years in, the verdict from our hardware team on Rust for ESP32 and STM32 — and where C++ still wins." },
-  { date: "2025-12-12", read: "7 min", title: "A design system that survived four redesigns", category: "Design", excerpt: "What stays, what changes, and the token architecture that lets a single library power 32 client sites." },
+  { date: "2026-04-22", read: "8 min", title: "Building crypto alert bots that scale", category: "Blockchain", excerpt: "How we architected the DexNew token tracker to handle thousands of real-time alerts without missing a beat." },
+  { date: "2026-03-14", read: "6 min", title: "Smart contracts: security patterns we follow", category: "Web3", excerpt: "Common vulnerabilities in Solidity and the patterns we use to prevent reentrancy, overflow, and access control issues." },
+  { date: "2026-02-28", read: "10 min", title: "React Native vs native: when to choose what", category: "Mobile", excerpt: "A practical guide to choosing between React Native and native development based on project requirements and team skills." },
+  { date: "2026-01-09", read: "5 min", title: "Building admin dashboards that users actually like", category: "Frontend", excerpt: "UX patterns and technical decisions behind the Eatumy shareholders panel that made complex data manageable." },
+  { date: "2025-12-12", read: "7 min", title: "Full stack TypeScript: our setup for 2026", category: "Engineering", excerpt: "Our go-to stack for full stack TypeScript projects — from Next.js to Node.js and everything in between." },
 ];
 
 export default function BlogPage() {

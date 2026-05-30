@@ -9,14 +9,14 @@
   --tint: #E8EFF8;
   --border: #E4EAF2;
   --border-2: #D4DCEA;
-  --ink: #0A0A0F;
+  --ink: #2D3142;
   --ink-2: #1A1A24;
   --muted: #5A6478;
   --subtle: #8B95A8;
   --soft: #B6BFD0;
-  --coral: #FF5C39;
-  --coral-soft: #FFE0D6;
-  --coral-2: #FF7B5C;
+  --coral: #F26419;
+  --coral-soft: #FDE8D7;
+  --coral-2: #F5863D;
   --blue: #2563EB;
   --blue-soft: #DBEAFE;
   --green: #10B981;
@@ -36,7 +36,7 @@ html { scroll-behavior: smooth; background: var(--ink); }
 body {
   background: var(--ink);
   color: var(--ink);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-garamond), Garamond, serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: 1.55;
@@ -82,7 +82,7 @@ body.loading .footer-shell { visibility: hidden; }
   .shadow-s4 { box-shadow: var(--shadow-4); }
 }
 
-.serif { font-family: var(--font-instrument), serif; font-style: italic; font-weight: 400; }
+.serif { font-family: var(--font-garamond), Garamond, serif; font-style: italic; font-weight: 400; }
 
 /* Trust marquee */
 @keyframes scroll-x { to { transform: translateX(-50%); } }
@@ -189,7 +189,7 @@ body.waking .logo-stage .iconedge-mark .p12, body.copy-on .logo-stage .iconedge-
    as the brand wakes up underneath it */
 .hero-intro { opacity: 0; transform: translateY(0); }
 .hero-intro-text {
-  font-family: var(--font-instrument), serif;
+  font-family: var(--font-garamond), Garamond, serif;
   font-style: italic;
   font-weight: 400;
   font-size: clamp(22px, 2.4vw, 36px);

@@ -12,7 +12,7 @@ export default function Services() {
             Three disciplines, <em className="serif text-coral px-[0.05em] font-normal">one team</em> that ships across all of them.
           </>
         }
-        sub="Most studios pick a lane. We pick the project. Web, mobile, and hardware sit under one roof so the seams disappear."
+        sub="Most studios pick a lane. We pick the project. Web, mobile, and blockchain sit under one roof so the seams disappear."
       />
 
       <div className="grid lg:grid-cols-[1.4fr_1fr_1fr] gap-4 max-lg:grid-cols-1">
@@ -136,8 +136,8 @@ function CardB() {
     <CardShell
       num="002"
       title="Mobile apps"
-      body="Native iOS and Android, or one shared codebase. Built for offline, real-time sync, and frame-perfect interaction."
-      stack={["Swift", "Kotlin", "SwiftUI", "Jetpack", "React Native"]}
+      body="Cross-platform apps for Android and iOS using React Native. Built for offline, real-time sync, and frame-perfect interaction."
+      stack={["React Native", "TypeScript", "Android", "iOS", "Firebase"]}
       iconBg="bg-blue-soft"
       iconColor="text-blue"
       icon={
@@ -154,15 +154,14 @@ function CardC() {
   return (
     <CardShell
       num="003"
-      title="Hardware & IoT"
-      body="Firmware, embedded Linux, and connected-device platforms. ESP32, STM32, custom boards — and the cloud they talk to."
-      stack={["Rust", "C++", "ESP32", "STM32", "MQTT"]}
+      title="Blockchain & Web3"
+      body="Smart contracts, decentralized applications, and Web3 integrations. From Solidity to wallet connections and everything in between."
+      stack={["Solidity", "Ethereum", "Web3.js", "Smart Contracts", "dApps"]}
       iconBg="bg-green-soft"
       iconColor="text-[#047857]"
       icon={
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="w-[22px] h-[22px]">
-          <rect x="4" y="4" width="16" height="16" rx="2" />
-          <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3M9 9h6v6H9z" />
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
         </svg>
       }
     />

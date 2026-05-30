@@ -11,10 +11,9 @@ const links = [
   { href: "/process", label: "Process" },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Insights" },
-  { href: "/careers", label: "Careers" },
 ];
 
-const desktopLinks = links.slice(0, 5);
+const desktopLinks = links;
 
 export default function Nav() {
   const [open, setOpen] = useState(false);

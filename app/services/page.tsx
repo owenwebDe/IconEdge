@@ -6,30 +6,30 @@ const capabilities = [
   {
     num: "01",
     title: "Web platforms",
-    body: "From marketing sites to multi-tenant SaaS dashboards. We build with Next.js, React, Node, and Postgres, deploy to Vercel or AWS, and instrument everything with telemetry from day one.",
+    body: "From marketing sites to multi-tenant SaaS dashboards. We build with Next.js, React, Node, and databases, deploy to Vercel or AWS, and instrument everything with telemetry from day one.",
     deliverables: ["Marketing sites", "Customer portals", "Admin dashboards", "E-commerce", "Multi-tenant SaaS", "Internal tools"],
-    stack: ["Next.js", "React", "TypeScript", "Tailwind", "tRPC", "Postgres", "Redis", "Vercel", "AWS"],
+    stack: ["Next.js", "React", "TypeScript", "Tailwind", "Node.js", "PostgreSQL", "MongoDB", "Vercel", "AWS"],
   },
   {
     num: "02",
     title: "Mobile apps",
-    body: "Native iOS in Swift and SwiftUI, native Android in Kotlin and Compose, or one shared codebase with React Native or Flutter. We pick the stack that fits your team's reality.",
-    deliverables: ["Native iOS", "Native Android", "React Native", "Flutter", "App store launch", "OTA updates"],
-    stack: ["Swift", "SwiftUI", "Kotlin", "Jetpack Compose", "React Native", "Flutter", "Expo", "Firebase"],
+    body: "Cross-platform mobile apps for Android and iOS using React Native. Built for offline capability, real-time sync, and frame-perfect interaction across all devices.",
+    deliverables: ["Android apps", "iOS apps", "React Native", "App store launch", "Push notifications", "Offline support"],
+    stack: ["React Native", "TypeScript", "Expo", "Firebase", "Redux", "REST APIs"],
   },
   {
     num: "03",
-    title: "Hardware & IoT",
-    body: "Firmware, embedded Linux, and the cloud platforms that connect them. We work with ESP32, STM32, Raspberry Pi, and custom boards — and the OTA, telemetry, and provisioning around them.",
-    deliverables: ["Firmware", "Embedded Linux", "OTA updates", "Provisioning flows", "Telemetry pipelines", "Companion apps"],
-    stack: ["Embedded Rust", "C++", "ESP-IDF", "Zephyr", "Yocto", "MQTT", "BLE", "LoRaWAN"],
+    title: "Blockchain & Web3",
+    body: "Smart contracts, decentralized applications, and Web3 integrations. From Solidity development to wallet connections and token implementations.",
+    deliverables: ["Smart contracts", "dApps", "Token development", "Wallet integration", "Web3 APIs", "NFT platforms"],
+    stack: ["Solidity", "Ethereum", "Web3.js", "Hardhat", "MetaMask", "IPFS"],
   },
   {
     num: "04",
-    title: "Design systems",
-    body: "Token-driven libraries that survive long after the project ships. Figma variables wired to Tailwind, components tested for accessibility, and documentation your engineers will actually read.",
-    deliverables: ["Figma libraries", "Token pipelines", "React component libraries", "Storybook docs", "Accessibility tests"],
-    stack: ["Figma", "Tokens Studio", "Style Dictionary", "Storybook", "Radix", "shadcn/ui"],
+    title: "Telegram Bots & Automation",
+    body: "Custom Telegram bots for crypto tracking, community management, and automated alerts. Built with Python and integrated with various APIs for real-time data.",
+    deliverables: ["Crypto alert bots", "Token trackers", "Community bots", "API integrations", "Real-time notifications", "Data scrapers"],
+    stack: ["Python", "Telegram API", "DexScreener", "Web scraping", "REST APIs", "Automation"],
   },
 ];
 
@@ -38,7 +38,7 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Services"
-        title="Software, hardware, and the integration in between."
+        title="Web, mobile, and blockchain under one roof."
         sub="We bundle disciplines that most studios split across vendors. One contract, one team, one shipping date."
       />
       <section className="px-7 max-w-[1400px] mx-auto py-24 max-md:px-5 max-md:py-16">

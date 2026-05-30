@@ -4,7 +4,7 @@ import SectionHead from "./SectionHead";
 const rows = [
   {
     group: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion", "Three.js"],
+    items: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion", "Redux"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-4 h-4">
         <rect x="3" y="4" width="18" height="14" rx="2" />
@@ -13,7 +13,7 @@ const rows = [
   },
   {
     group: "Backend",
-    items: ["Node", "Go", "Rust", "Postgres", "Redis", "tRPC / GraphQL"],
+    items: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-4 h-4">
         <path d="M3 12a9 9 0 1018 0 9 9 0 00-18 0zM12 3v18M3 12h18" />
@@ -22,7 +22,7 @@ const rows = [
   },
   {
     group: "Mobile",
-    items: ["Swift / SwiftUI", "Kotlin / Compose", "React Native", "Flutter", "Firebase"],
+    items: ["React Native", "Android", "iOS", "Firebase", "Expo"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-4 h-4">
         <rect x="6" y="2" width="12" height="20" rx="2" />
@@ -30,11 +30,11 @@ const rows = [
     ),
   },
   {
-    group: "Hardware & cloud",
-    items: ["ESP32 / STM32", "Embedded Rust", "C++", "MQTT", "BLE", "AWS / GCP"],
+    group: "Blockchain",
+    items: ["Solidity", "Ethereum", "Web3.js", "Smart Contracts", "Wallet Integration", "dApps"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-4 h-4">
-        <rect x="4" y="4" width="16" height="16" rx="2" />
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
       </svg>
     ),
   },

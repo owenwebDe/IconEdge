@@ -3,36 +3,36 @@ import SectionHead from "./SectionHead";
 
 const items = [
   {
-    meta: "Quill / Fintech",
+    meta: "Eatumy / Admin",
+    year: "2026",
+    name: "Eatumy",
+    sub: "shareholders panel",
+    desc: "A secure admin dashboard for shareholders to manage operations, monitor data, and control platform settings.",
+    tags: ["Web", "Dashboard", "Admin"],
+  },
+  {
+    meta: "DexNew / Crypto",
+    year: "2026",
+    name: "DexNew",
+    sub: "token tracker",
+    desc: "A Python-powered Telegram bot that scrapes and tracks new token listings in real time using the DexScreener API.",
+    tags: ["Telegram Bot", "Python", "Crypto"],
+  },
+  {
+    meta: "Just Keep Gambling / Web3",
     year: "2025",
-    name: "Quill",
-    sub: "onboarding",
-    desc: "Cut KYC drop-off by 62% with a redesigned onboarding flow across web and native iOS and Android.",
-    tags: ["Web", "Mobile", "Fintech"],
+    name: "JKG",
+    sub: "crypto gaming",
+    desc: "A full website for a crypto gambling project, featuring wallet integrations and an engaging Web3 gaming experience.",
+    tags: ["Web3", "Blockchain", "Gaming"],
   },
   {
-    meta: "Helix / Healthcare",
+    meta: "C-Sons / Business",
     year: "2025",
-    name: "Helix",
-    sub: "clinical IoT",
-    desc: "Connected 14,000 bedside devices to a HIPAA-grade ingestion layer with sub-second telemetry.",
-    tags: ["Hardware", "Cloud", "Healthcare"],
-  },
-  {
-    meta: "Nori / Government",
-    year: "2024",
-    name: "Nori",
-    sub: "civic portal",
-    desc: "A new front door for 2.1M residents to renew permits, pay levies, and reach their council in three taps.",
-    tags: ["Web", "Government"],
-  },
-  {
-    meta: "Linea / Agency",
-    year: "2024",
-    name: "Linea",
-    sub: "design system",
-    desc: "A token-driven component library powering 32 client sites for a London-based brand agency.",
-    tags: ["Web", "Design system"],
+    name: "C-Sons",
+    sub: "global enterprises",
+    desc: "A business website for a Nigerian logistics company offering transportation, medical equipment, and office supplies.",
+    tags: ["Web", "Business", "Logistics"],
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Work() {
         eyebrow="Work"
         title={
           <>
-            <em className="serif text-coral px-[0.05em] font-normal">Selected work</em> — a sample of platforms, apps, and devices.
+            <em className="serif text-coral px-[0.05em] font-normal">Selected work</em> — a sample of platforms, apps, and bots.
           </>
         }
       />

@@ -71,8 +71,8 @@ export default function Logo({
   markClass = "",
   fluid = false,
 }: Props) {
-  const dark = light ? "#FAFAF7" : "#1A1A24";
-  const accent = "#FF5C39";
+  const dark = light ? "#FAFAF7" : "#2D3142";
+  const accent = "#F26419";
   const dims = fluid ? {} : { width: size, height: size };
 
   const halfLen = BAR_LENGTH / 2;

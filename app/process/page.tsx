@@ -42,7 +42,7 @@ export default function ProcessPage() {
       <PageHero
         eyebrow="Process"
         title="Five steps. No surprises."
-        sub="The same process whether it is a marketing site or a connected device. Predictable cadences, working demos, and a written deliverable at the end of every phase."
+        sub="The same process whether it is a marketing site or a blockchain dApp. Predictable cadences, working demos, and a written deliverable at the end of every phase."
       />
       <Process />
       <section className="px-7 max-w-[1400px] mx-auto py-24 max-md:px-5 max-md:py-16">

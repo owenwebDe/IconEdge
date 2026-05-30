@@ -4,14 +4,14 @@ import Logo from "./Logo";
 const services = [
   ["Web platforms", "/services"],
   ["Mobile apps", "/services"],
-  ["Hardware & IoT", "/services"],
-  ["Design systems", "/services"],
+  ["Blockchain & Web3", "/services"],
+  ["Telegram Bots", "/services"],
 ];
 const studio = [
   ["Work", "/work"],
   ["Process", "/process"],
   ["About", "/about"],
-  ["Careers", "/careers"],
+  ["Contact", "/contact"],
 ];
 const resources = [
   ["Insights", "/blog"],
@@ -30,7 +30,7 @@ export default function Footer() {
               <span>IconEdge</span>
             </Link>
             <p className="text-[14px] text-muted leading-[1.55] max-w-[280px]">
-              Software, hardware, and the integration in between. Built for startups, enterprise, and everyone serious about shipping.
+              Web, mobile, and blockchain development under one roof. Built for startups, enterprise, and everyone serious about shipping.
             </p>
           </div>
           <FooterCol title="Services" items={services} />
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-between pt-6 text-[13px] text-muted flex-wrap gap-4">
-          <div>© {new Date().getFullYear()} IconEdge Technology Ltd · All rights reserved</div>
+          <div>© {new Date().getFullYear()} IconEdge Technologies Ltd · All rights reserved</div>
           <div className="flex gap-5">
             <a href="#" className="text-muted hover:text-ink transition-colors duration-200">LinkedIn</a>
             <a href="#" className="text-muted hover:text-ink transition-colors duration-200">X</a>

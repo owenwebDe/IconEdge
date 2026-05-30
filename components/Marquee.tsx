@@ -1,6 +1,6 @@
 const items = [
-  "React", "Next.js", "TypeScript", "Swift", "Kotlin", "Rust", "Go",
-  "Node", "ESP32", "STM32", "AWS", "Kubernetes", "PostgreSQL", "IoT",
+  "React", "Next.js", "TypeScript", "React Native", "Node.js", "Express",
+  "PostgreSQL", "MongoDB", "Solidity", "Ethereum", "Web3", "Smart Contracts",
 ];
 
 export default function Marquee() {

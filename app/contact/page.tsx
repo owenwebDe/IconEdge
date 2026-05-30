@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import { useState } from "react";
 
-const projectTypes = ["Web platform", "Mobile app", "Hardware / IoT", "Design system", "Not sure yet"];
+const projectTypes = ["Web platform", "Mobile app", "Blockchain / Web3", "Telegram Bot", "Not sure yet"];
 const budgets = ["Under $25k", "$25k–$75k", "$75k–$200k", "$200k+"];
 const timelines = ["ASAP", "1–2 months", "3–6 months", "Flexible"];
 
@@ -84,10 +84,13 @@ export default function ContactPage() {
             <div>
               <h6 className="font-mono text-[11px] tracking-[0.12em] uppercase text-subtle mb-3 font-medium">Studio</h6>
               <p className="text-[15px] text-muted leading-[1.55]">
-                IconEdge Technology Ltd<br />
-                Office address line 1<br />
-                City, Country
+                IconEdge Technologies Ltd<br />
+                Abuja, Nigeria
               </p>
+            </div>
+            <div>
+              <h6 className="font-mono text-[11px] tracking-[0.12em] uppercase text-subtle mb-3 font-medium">Phone</h6>
+              <a href="tel:+2348119503680" className="text-[15px] text-ink hover:text-coral transition-colors duration-200">08119503680</a>
             </div>
             <div>
               <h6 className="font-mono text-[11px] tracking-[0.12em] uppercase text-subtle mb-3 font-medium">Hours</h6>
