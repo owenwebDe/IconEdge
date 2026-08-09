@@ -5,10 +5,10 @@ import SectionHead from "./SectionHead";
 
 type Stat = { target: number; decimals?: number; suffix?: string; label: string };
 const stats: Stat[] = [
-  { target: 120, suffix: "+", label: "Projects shipped" },
-  { target: 14000, label: "Devices in production" },
-  { target: 99.98, decimals: 2, suffix: "%", label: "Average uptime" },
-  { target: 24, suffix: "h", label: "First reply, on average" },
+  { target: 5, label: "Core Business Solutions" },
+  { target: 100, suffix: "%", label: "Custom Built Architecture" },
+  { target: 1, label: "Integrated Full-Stack Team" },
+  { target: 24, suffix: "h", label: "First response, on average" },
 ];
 
 function Counter({ stat, run }: { stat: Stat; run: boolean }) {
@@ -43,12 +43,13 @@ export default function Stats() {
     <section id="numbers" className="px-7 py-32 max-w-[1400px] mx-auto max-md:px-5 max-md:py-20">
       <SectionHead
         num="04"
-        eyebrow="Numbers"
+        eyebrow="Standards"
         title={
           <>
-            Receipts <em className="serif text-coral px-[0.05em] font-normal">over</em> rhetoric.
+            Engineering <em className="serif text-coral px-[0.05em] font-normal">commitments</em>.
           </>
         }
+        sub="We establish trust through clean code, direct senior communication, and solutions engineered to solve real business problems."
       />
       <div ref={ref} className="grid grid-cols-4 gap-4 max-md:grid-cols-2">
         {stats.map((s) => (

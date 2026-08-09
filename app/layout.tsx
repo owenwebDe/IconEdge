@@ -6,6 +6,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Cursor from "@/components/Cursor";
 import WakeUpBoot from "@/components/WakeUpBoot";
+import ChatBot from "@/components/ChatBot";
 
 const garamond = EB_Garamond({
   subsets: ["latin"],
@@ -15,13 +16,25 @@ const garamond = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "IconEdge Technologies Ltd — Web, Mobile & Blockchain Development",
+  title: "IconEdge Technologies LTD — Custom Software, Business Automation & AI Solutions",
   description:
-    "We build frontend and backend platforms, cross-platform mobile apps, and blockchain solutions. Web, mobile, and blockchain development under one roof.",
-  keywords: ["IconEdge", "frontend", "backend", "mobile apps", "React", "React Native", "blockchain", "smart contracts", "Web3", "software development"],
+    "We build custom software, business automation, AI-powered systems, web and mobile platforms that help growing businesses eliminate manual work and scale operations.",
+  keywords: [
+    "software development company",
+    "custom software development",
+    "business automation",
+    "AI automation",
+    "web application development",
+    "e-commerce development",
+    "business software",
+    "custom web development",
+    "technology company Nigeria",
+    "software development Nigeria",
+    "IconEdge Technologies"
+  ],
   openGraph: {
-    title: "IconEdge Technologies Ltd",
-    description: "We build the edge of technology.",
+    title: "IconEdge Technologies LTD — Custom Software & Business Automation",
+    description: "Build Smarter. Automate More. Grow Faster. Custom software, automation, and AI for growing businesses.",
     type: "website",
   },
 };
@@ -38,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main>{children}</main>
         <Footer />
+        <ChatBot />
       </body>
     </html>
   );

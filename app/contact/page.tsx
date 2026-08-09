@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import { useState } from "react";
 
-const projectTypes = ["Web platform", "Mobile app", "Blockchain / Web3", "Telegram Bot", "Not sure yet"];
+const projectTypes = ["Business Automation", "Custom Software", "Web & E-commerce", "AI Solution", "Mobile / Web App"];
 const budgets = ["Under $25k", "$25k–$75k", "$75k–$200k", "$200k+"];
 const timelines = ["ASAP", "1–2 months", "3–6 months", "Flexible"];
 
@@ -16,9 +16,8 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Contact"
-        title="Tell us about the project."
-        sub="The more you share, the sharper our first reply. We come back within a working day with next steps, scope questions, and a rough range."
+        title="Let's Build Something Useful."
+        sub="Have an idea, an inefficient process, or a business problem you want to solve with technology? Tell us about it."
       />
       <section className="px-7 max-w-[1400px] mx-auto pb-24 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-16 max-md:px-5">
         <Reveal>
@@ -26,13 +25,13 @@ export default function ContactPage() {
             onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}
             className="space-y-10"
           >
-            <Field label="What kind of project is this?">
+            <Field label="What kind of solution do you need?">
               <Pills options={projectTypes} value={type} onChange={setType} />
             </Field>
             <Field label="Approximate budget?">
               <Pills options={budgets} value={budget} onChange={setBudget} />
             </Field>
-            <Field label="Timeline?">
+            <Field label="Target timeline?">
               <Pills options={timelines} value={timeline} onChange={setTimeline} />
             </Field>
             <Field label="Your name">
@@ -44,14 +43,14 @@ export default function ContactPage() {
             <Field label="Company">
               <input type="text" className="form-input" placeholder="Optional" />
             </Field>
-            <Field label="Tell us about it">
-              <textarea required rows={6} className="form-input resize-none" placeholder="What you are building, who it is for, and where you are stuck." />
+            <Field label="Tell us about the business problem or project">
+              <textarea required rows={6} className="form-input resize-none" placeholder="Describe what you are building, the manual processes you want to automate, or the operational problem you need to solve." />
             </Field>
             <button
               type="submit"
               className="group inline-flex items-center gap-2 px-[22px] py-[13px] bg-coral text-bg rounded-full text-[14px] font-medium shadow-[0_6px_20px_rgba(255,92,57,0.3)] hover:bg-coral-2 hover:-translate-y-px transition-all duration-200 ease-smooth"
             >
-              {submitted ? "Sent — we will reply within a working day" : "Send"}
+              {submitted ? "Sent — we will reply within a working day" : "Send Inquiry"}
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform duration-200 group-hover:translate-x-1">
                 <path d="M5 12h14M13 5l7 7-7 7" />
               </svg>
@@ -84,7 +83,7 @@ export default function ContactPage() {
             <div>
               <h6 className="font-mono text-[11px] tracking-[0.12em] uppercase text-subtle mb-3 font-medium">Studio</h6>
               <p className="text-[15px] text-muted leading-[1.55]">
-                IconEdge Technologies Ltd<br />
+                IconEdge Technologies LTD<br />
                 Abuja, Nigeria
               </p>
             </div>
@@ -94,7 +93,7 @@ export default function ContactPage() {
             </div>
             <div>
               <h6 className="font-mono text-[11px] tracking-[0.12em] uppercase text-subtle mb-3 font-medium">Hours</h6>
-              <p className="text-[15px] text-muted">Monday–Friday<br />9:00–18:00 local time</p>
+              <p className="text-[15px] text-muted">Monday–Friday<br />9:00–18:00 WAT</p>
             </div>
             <div className="p-6 border border-line rounded-xl bg-surface shadow-s1">
               <div className="flex items-center gap-2 text-[#047857] text-[13px] mb-3 font-medium">
@@ -102,7 +101,7 @@ export default function ContactPage() {
                 Currently taking new projects
               </div>
               <p className="text-[14px] text-muted leading-[1.55]">
-                We typically have one to two slots per quarter. Reach out early to lock a kickoff date.
+                Reach out today to discuss your business requirements, project scope, and timeline.
               </p>
             </div>
           </aside>

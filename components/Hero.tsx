@@ -91,8 +91,8 @@ export default function Hero() {
 
       <div className="hero-copy relative z-10 flex flex-col items-center max-w-[1100px] w-full">
         {/* Logo + wordmark */}
-        <div className="flex items-center gap-5 mb-12 max-md:gap-3.5 max-md:mb-9 max-[420px]:flex-col max-[420px]:gap-3 max-[420px]:mb-7">
-          <div className="relative w-[120px] aspect-square max-md:w-[88px] max-[420px]:w-[72px] flex-shrink-0">
+        <div className="flex items-center gap-5 mb-8 max-md:gap-3.5 max-md:mb-7 max-[420px]:flex-col max-[420px]:gap-3">
+          <div className="relative w-[110px] aspect-square max-md:w-[80px] max-[420px]:w-[68px] flex-shrink-0">
             <div
               className="logo-stage"
               style={{ filter: "drop-shadow(0 16px 36px rgba(0,0,0,0.5))" }}
@@ -101,43 +101,45 @@ export default function Hero() {
             </div>
           </div>
           <span className="hero-wordmark flex flex-col items-start max-[420px]:items-center leading-none min-w-0">
-            <span className="font-sans font-semibold text-bg text-[clamp(36px,5.5vw,76px)] tracking-[-0.03em] leading-none">
-              IconEdge Technology Limited
+            <span className="font-sans font-semibold text-bg text-[clamp(32px,4.8vw,68px)] tracking-[-0.03em] leading-none">
+              IconEdge Technologies LTD
             </span>
-          {/*   <span className="font-mono text-bg/70 text-[clamp(10px,0.85vw,13px)] tracking-[0.18em] uppercase mt-2">
-              Technology Limited
-            </span> */}
           </span>
         </div>
 
         {/* Tagline — single line, word-by-word reveal on wake-up */}
-        <h1 className="font-sans font-semibold text-[clamp(22px,2.6vw,40px)] leading-[1.15] tracking-[-0.025em] mb-9 text-bg max-md:mb-7 whitespace-nowrap max-md:whitespace-normal">
+        <h1 className="font-sans font-semibold text-[clamp(26px,3.8vw,52px)] leading-[1.1] tracking-[-0.03em] mb-6 text-bg max-md:mb-5 whitespace-nowrap max-md:whitespace-normal">
           <span className="hero-title-row">
-            <span className="hero-title-word">We</span>
-            <span className="hero-title-word">build</span>
-            <span className="hero-title-word">the</span>
-            <span className="hero-title-word"><span className="serif font-normal text-coral inline-block px-[0.04em]">edge</span></span>
-            <span className="hero-title-word">of</span>
-            <span className="hero-title-word">technology.</span>
+            <span className="hero-title-word">Build</span>
+            <span className="hero-title-word">Smarter.</span>
+            <span className="hero-title-word"><span className="serif font-normal text-coral inline-block px-[0.04em]">Automate</span></span>
+            <span className="hero-title-word">More.</span>
+            <span className="hero-title-word">Grow</span>
+            <span className="hero-title-word">Faster.</span>
           </span>
         </h1>
 
+        {/* Supporting text */}
+        <p className="hero-fade-1 text-[clamp(15px,1.2vw,18px)] text-bg/80 max-w-[700px] mb-9 leading-[1.6] max-md:text-[15px] max-md:mb-8">
+          We build custom software, automation, and AI-powered systems that help businesses eliminate repetitive work, improve operations, and scale with confidence.
+        </p>
+
         {/* CTA */}
-        <div className="hero-fade-2 flex gap-2.5 flex-wrap justify-center max-md:mt-16 max-[420px]:mt-20">
+        <div className="hero-fade-2 flex gap-3 flex-wrap justify-center">
           <a
-            href="#contact"
-            className="inline-flex items-center gap-2 px-[22px] py-[13px] rounded-full bg-coral text-bg text-[14px] font-medium shadow-[0_6px_20px_rgba(255,92,57,0.3)] hover:bg-coral-2 hover:-translate-y-px transition-all duration-200 ease-smooth"
+            href="/contact"
+            className="inline-flex items-center gap-2 px-[24px] py-[13.5px] rounded-full bg-coral text-bg text-[14px] font-medium shadow-[0_6px_20px_rgba(255,92,57,0.3)] hover:bg-coral-2 hover:-translate-y-px transition-all duration-200 ease-smooth"
           >
-            Start a project
+            Start a Project
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M13 5l7 7-7 7" />
             </svg>
           </a>
           <a
-            href="#work"
-            className="inline-flex items-center gap-2 px-[22px] py-[13px] rounded-full bg-transparent text-bg text-[14px] font-medium border border-white/[0.18] hover:bg-white/[0.06] hover:border-white/[0.35] hover:-translate-y-px transition-all duration-200 ease-smooth"
+            href="#services"
+            className="inline-flex items-center gap-2 px-[24px] py-[13.5px] rounded-full bg-transparent text-bg text-[14px] font-medium border border-white/[0.18] hover:bg-white/[0.06] hover:border-white/[0.35] hover:-translate-y-px transition-all duration-200 ease-smooth"
           >
-            See selected work
+            Explore Our Solutions
           </a>
         </div>
       </div>

@@ -7,32 +7,32 @@ const phases = [
   {
     n: "01",
     title: "Discover",
-    body: "Two weeks. Stakeholder interviews, competitive audit, technical reality check, and a brief that becomes our north star. You leave with a written direction; no contract decisions yet.",
-    bullets: ["Stakeholder interviews", "Technical audit", "Competitive scan", "Written brief"],
+    body: "We understand your business, goals, operational bottlenecks, and the exact problem you need to solve.",
+    bullets: ["Business goal alignment", "Operational workflow audit", "System requirement analysis", "Scope definition"],
   },
   {
     n: "02",
-    title: "Design",
-    body: "Architecture diagrams, wireframes, motion direction, and a pixel-tight UI in Figma. We pressure-test edge cases before a line of code is written.",
-    bullets: ["Information architecture", "Wireframes", "High-fidelity UI", "Motion direction", "Accessibility plan"],
+    title: "Plan",
+    body: "We define the solution architecture, technology stack, project scope, timeline, and exact deliverables.",
+    bullets: ["System architecture", "UI/UX & workflow design", "Database schema mapping", "Project roadmap & milestones"],
   },
   {
     n: "03",
     title: "Build",
-    body: "Two-week sprints with a Loom every Friday and a working demo. You see progress in real time, not at the end.",
-    bullets: ["Two-week sprints", "Friday Loom updates", "Working demo each sprint", "Continuous staging deploys"],
+    body: "Our team designs and develops your system with regular progress updates and continuous staging demos.",
+    bullets: ["Full-stack engineering", "Regular progress updates", "Live staging access", "Continuous integration & testing"],
   },
   {
     n: "04",
-    title: "Ship",
-    body: "Staging, QA, accessibility audit, performance review, and a launch playbook. We hand over a system, not a folder of files.",
-    bullets: ["QA pass", "WCAG 2.1 AA audit", "Performance review", "Launch playbook", "Team training"],
+    title: "Launch",
+    body: "We test, deploy, and ensure everything operates smoothly, securely, and reliably in your production environment.",
+    bullets: ["Production deployment", "Security & QA pass", "Performance verification", "Team onboarding"],
   },
   {
     n: "05",
-    title: "Scale",
-    body: "Monitoring, performance, and a roadmap for the next twelve months. We stay engaged on a retainer or hand over cleanly.",
-    bullets: ["Observability", "Quarterly reviews", "Twelve-month roadmap", "Retainer or handover"],
+    title: "Improve",
+    body: "We provide ongoing technical support, system maintenance, and feature enhancements as your business grows.",
+    bullets: ["System monitoring", "Maintenance & updates", "Scalability enhancements", "Ongoing technical support"],
   },
 ];
 
@@ -40,9 +40,8 @@ export default function ProcessPage() {
   return (
     <>
       <PageHero
-        eyebrow="Process"
-        title="Five steps. No surprises."
-        sub="The same process whether it is a marketing site or a blockchain dApp. Predictable cadences, working demos, and a written deliverable at the end of every phase."
+        title="Five steps. Clear execution."
+        sub="A structured, predictable workflow whether you need business automation, custom software, or a complex digital platform."
       />
       <Process />
       <section className="px-7 max-w-[1400px] mx-auto py-24 max-md:px-5 max-md:py-16">

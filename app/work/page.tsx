@@ -3,21 +3,20 @@ import Reveal from "@/components/Reveal";
 import CTABand from "@/components/CTABand";
 
 const cases = [
-  { id: "eatumy", name: "Eatumy", sub: "shareholders panel", year: "2026", tags: ["Web", "Dashboard"], outcome: "Secure admin management system" },
-  { id: "dexnew", name: "DexNew", sub: "token tracker", year: "2026", tags: ["Telegram Bot", "Crypto"], outcome: "Real-time token listing alerts" },
-  { id: "jkg", name: "Just Keep Gambling", sub: "crypto gaming", year: "2025", tags: ["Web3", "Blockchain"], outcome: "Full Web3 gaming platform" },
-  { id: "pulse", name: "Pulse Alerts", sub: "buy bot", year: "2025", tags: ["Telegram Bot", "Crypto"], outcome: "Real-time purchase notifications" },
-  { id: "csons", name: "C-Sons", sub: "global enterprises", year: "2025", tags: ["Web", "Business"], outcome: "Logistics company website" },
-  { id: "equivault", name: "EquiVault", sub: "full stack platform", year: "2026", tags: ["Web", "Full Stack"], outcome: "Dubai-based web application" },
+  { id: "eatumy", name: "Eatumy", sub: "admin panel [Demo Project]", year: "2026", tags: ["Custom Software", "Admin Dashboard"], outcome: "Centralized operational control & analytics demo" },
+  { id: "dexnew", name: "DexNew", sub: "token tracker [Automation Bot]", year: "2026", tags: ["Business Automation", "Telegram Bot"], outcome: "Real-time API monitoring & instant notification alerts" },
+  { id: "jkg", name: "JKG Portal", sub: "digital app [Concept Project]", year: "2025", tags: ["Web Application", "Concept Project"], outcome: "Interactive high-concurrency web application concept" },
+  { id: "pulse", name: "Pulse Alerts", sub: "notification bot [Automation System]", year: "2025", tags: ["Business Automation", "Alert Engine"], outcome: "Automated trigger & real-time notification system" },
+  { id: "csons", name: "C-Sons", sub: "enterprise portal [Demo Project]", year: "2025", tags: ["Corporate Web", "Logistics"], outcome: "Automated customer inquiry routing & service portal" },
+  { id: "equivault", name: "EquiVault", sub: "full stack platform [Demo Project]", year: "2026", tags: ["Full Stack", "Business Software"], outcome: "Multi-tenant enterprise management portal demo" },
 ];
 
 export default function WorkPage() {
   return (
     <>
       <PageHero
-        eyebrow="Selected work"
-        title="A sample of what we have shipped."
-        sub="Six cases from the past two years across web, mobile, blockchain, and bots. Each one is a long story — these are the highlights."
+        title="Software, automation & digital systems we build."
+        sub="Explore platform demos, automation workflows, and custom software concepts designed to demonstrate IconEdge's engineering capabilities."
       />
       <section className="px-7 max-w-[1400px] mx-auto pb-24 max-md:px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

@@ -5,31 +5,79 @@ import CTABand from "@/components/CTABand";
 const capabilities = [
   {
     num: "01",
-    title: "Web platforms",
-    body: "From marketing sites to multi-tenant SaaS dashboards. We build with Next.js, React, Node, and databases, deploy to Vercel or AWS, and instrument everything with telemetry from day one.",
-    deliverables: ["Marketing sites", "Customer portals", "Admin dashboards", "E-commerce", "Multi-tenant SaaS", "Internal tools"],
-    stack: ["Next.js", "React", "TypeScript", "Tailwind", "Node.js", "PostgreSQL", "MongoDB", "Vercel", "AWS"],
+    title: "Business Automation",
+    body: "Help your business eliminate manual work, streamline customer communication, automate lead follow-ups, and connect disparate systems with real-time workflow triggers.",
+    deliverables: [
+      "WhatsApp automation",
+      "Telegram automation",
+      "AI assistants",
+      "Automated customer support",
+      "Lead capture and follow-up",
+      "Workflow automation",
+      "API integrations",
+      "Notifications and alerts"
+    ],
+    stack: ["WhatsApp Business", "Telegram Bot API", "Python", "Webhooks", "REST APIs", "Automations"],
   },
   {
     num: "02",
-    title: "Mobile apps",
-    body: "Cross-platform mobile apps for Android and iOS using React Native. Built for offline capability, real-time sync, and frame-perfect interaction across all devices.",
-    deliverables: ["Android apps", "iOS apps", "React Native", "App store launch", "Push notifications", "Offline support"],
-    stack: ["React Native", "TypeScript", "Expo", "Firebase", "Redux", "REST APIs"],
+    title: "Custom Business Software",
+    body: "Build software engineered specifically around how your business operates. From operational dashboards to customer portals, we turn complex workflows into intuitive digital platforms.",
+    deliverables: [
+      "CRM systems",
+      "Admin dashboards",
+      "Inventory systems",
+      "Booking systems",
+      "Management platforms",
+      "Business portals",
+      "Internal tools",
+      "Reporting systems"
+    ],
+    stack: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "Tailwind CSS"],
   },
   {
     num: "03",
-    title: "Blockchain & Web3",
-    body: "Smart contracts, decentralized applications, and Web3 integrations. From Solidity development to wallet connections and token implementations.",
-    deliverables: ["Smart contracts", "dApps", "Token development", "Wallet integration", "Web3 APIs", "NFT platforms"],
-    stack: ["Solidity", "Ethereum", "Web3.js", "Hardhat", "MetaMask", "IPFS"],
+    title: "Web & E-commerce",
+    body: "Build modern, fast corporate websites and online stores designed around business goals, seamless customer experiences, and high conversions.",
+    deliverables: [
+      "Corporate websites",
+      "E-commerce platforms",
+      "Payment integration",
+      "Customer portals",
+      "Online booking",
+      "Product catalogues",
+      "Custom web applications"
+    ],
+    stack: ["Next.js", "React", "TypeScript", "Stripe", "Paystack", "Node.js", "Vercel"],
   },
   {
     num: "04",
-    title: "Telegram Bots & Automation",
-    body: "Custom Telegram bots for crypto tracking, community management, and automated alerts. Built with Python and integrated with various APIs for real-time data.",
-    deliverables: ["Crypto alert bots", "Token trackers", "Community bots", "API integrations", "Real-time notifications", "Data scrapers"],
-    stack: ["Python", "Telegram API", "DexScreener", "Web scraping", "REST APIs", "Automation"],
+    title: "AI Solutions",
+    body: "Integrate practical AI capabilities directly into your business operations to process information faster, automate responses, and improve customer experience.",
+    deliverables: [
+      "AI customer support",
+      "AI assistants",
+      "Document processing",
+      "AI-powered search",
+      "Automated responses",
+      "Business intelligence",
+      "AI workflow integrations"
+    ],
+    stack: ["OpenAI API", "Python", "LangChain", "Vector DBs", "FastAPI", "Node.js"],
+  },
+  {
+    num: "05",
+    title: "Mobile & Web Applications",
+    body: "Build scalable cross-platform mobile apps and web platforms for growing businesses and startups looking for performance, security, and smooth user experiences.",
+    deliverables: [
+      "Customer-facing applications",
+      "Business applications",
+      "SaaS platforms",
+      "Mobile apps (iOS & Android)",
+      "Web applications",
+      "APIs and backend systems"
+    ],
+    stack: ["React Native", "Expo", "TypeScript", "Node.js", "Firebase", "AWS"],
   },
 ];
 
@@ -37,9 +85,8 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        eyebrow="Services"
-        title="Web, mobile, and blockchain under one roof."
-        sub="We bundle disciplines that most studios split across vendors. One contract, one team, one shipping date."
+        title="Custom software, automation, and AI for growing businesses."
+        sub="We build practical digital systems that solve real operational problems, save time, and help your business scale efficiently."
       />
       <section className="px-7 max-w-[1400px] mx-auto py-24 max-md:px-5 max-md:py-16">
         <div className="space-y-24">
@@ -48,7 +95,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 lg:grid-cols-[180px_1fr] gap-10 pb-24 border-b border-line last:border-b-0 last:pb-0">
                 <div className="font-mono text-coral text-[11px] tracking-[0.12em] uppercase font-medium">
                   <div className="w-6 h-px bg-coral mb-4" />
-                  {c.num} / {c.title}
+                  {c.title}
                 </div>
                 <div>
                   <h2 className="font-sans text-[clamp(32px,4vw,52px)] font-semibold tracking-[-0.03em] leading-[1.05] mb-5 text-ink">{c.title}</h2>

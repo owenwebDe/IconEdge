@@ -1,15 +1,14 @@
 const items = [
-  "React", "Next.js", "TypeScript", "React Native", "Node.js", "Express",
-  "PostgreSQL", "MongoDB", "Solidity", "Ethereum", "Web3", "Smart Contracts",
+  "Business Automation", "Custom Software", "AI Systems", "Digital Systems",
 ];
 
 export default function Marquee() {
-  const doubled = [...items, ...items];
+  const doubled = [...items, ...items, ...items, ...items];
   return (
     <div className="trust-shell px-7 py-8 border-y border-line bg-surface overflow-hidden">
       <div className="max-w-[1400px] mx-auto flex items-center gap-10 max-md:flex-col max-md:items-stretch max-md:gap-5">
         <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-subtle flex-shrink-0">
-          Trusted stack
+          Core Focus
         </div>
         <div
           className="flex-1 overflow-hidden"

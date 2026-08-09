@@ -45,12 +45,13 @@ export default function Stack() {
     <section id="stack" className="px-7 py-32 max-w-[1400px] mx-auto max-md:px-5 max-md:py-20">
       <SectionHead
         num="05"
-        eyebrow="Stack"
+        eyebrow="Technology"
         title={
           <>
-            Tools we reach for. <em className="serif text-coral px-[0.05em] font-normal">Not a religion</em> — the right one for the job.
+            Engineering stack. <em className="serif text-coral px-[0.05em] font-normal">Proven tools</em> for reliable digital systems.
           </>
         }
+        sub="We select modern, production-grade technologies that maximize system stability, performance, and operational efficiency."
       />
       <Reveal>
         <div className="bg-surface border border-line rounded-xl overflow-hidden shadow-s1">

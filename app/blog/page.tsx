@@ -3,20 +3,19 @@ import Reveal from "@/components/Reveal";
 import CTABand from "@/components/CTABand";
 
 const posts = [
-  { date: "2026-04-22", read: "8 min", title: "Building crypto alert bots that scale", category: "Blockchain", excerpt: "How we architected the DexNew token tracker to handle thousands of real-time alerts without missing a beat." },
-  { date: "2026-03-14", read: "6 min", title: "Smart contracts: security patterns we follow", category: "Web3", excerpt: "Common vulnerabilities in Solidity and the patterns we use to prevent reentrancy, overflow, and access control issues." },
-  { date: "2026-02-28", read: "10 min", title: "React Native vs native: when to choose what", category: "Mobile", excerpt: "A practical guide to choosing between React Native and native development based on project requirements and team skills." },
-  { date: "2026-01-09", read: "5 min", title: "Building admin dashboards that users actually like", category: "Frontend", excerpt: "UX patterns and technical decisions behind the Eatumy shareholders panel that made complex data manageable." },
-  { date: "2025-12-12", read: "7 min", title: "Full stack TypeScript: our setup for 2026", category: "Engineering", excerpt: "Our go-to stack for full stack TypeScript projects — from Next.js to Node.js and everything in between." },
+  { date: "2026-04-22", read: "8 min", title: "Building scalable notification & alert systems", category: "Automation", excerpt: "How to architect real-time event listeners and message queues to automate customer alerts without missing critical triggers." },
+  { date: "2026-03-14", read: "6 min", title: "Integrating AI assistants into business workflows", category: "AI Solutions", excerpt: "Practical patterns for embedding LLM capabilities into internal portals, customer support, and document processing systems." },
+  { date: "2026-02-28", read: "10 min", title: "Designing custom admin dashboards users actually adopt", category: "Custom Software", excerpt: "UX principles and data architecture decisions behind internal business tools that streamline daily operations." },
+  { date: "2026-01-09", read: "5 min", title: "Why off-the-shelf software fails growing SMEs", category: "Strategy", excerpt: "When to transition from generic subscription SaaS to custom-built software tailored to your company's operational workflow." },
+  { date: "2025-12-12", read: "7 min", title: "Modern Web & E-commerce architecture for 2026", category: "Engineering", excerpt: "Our go-to full-stack setup for high-speed corporate websites, automated lead capture, and secure payment processing." },
 ];
 
 export default function BlogPage() {
   return (
     <>
       <PageHero
-        eyebrow="Insights"
         title="Notes from the build."
-        sub="What we learn while shipping — engineering, design, and the parts in between. No gated downloads."
+        sub="Practical insights on business automation, custom software engineering, AI integrations, and digital system design."
       />
       <section className="px-7 max-w-[1400px] mx-auto pb-24 max-md:px-5">
         <div className="flex flex-col">
