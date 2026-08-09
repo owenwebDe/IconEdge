@@ -38,11 +38,27 @@ function Counter({ stat, run }: { stat: Stat; run: boolean }) {
 
 export default function Stats() {
   const ref = useRef<HTMLDivElement>(null);
-  const inView = useInView(ref, { once: true, amount: 0.3 });
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="numbers" className="px-7 py-32 max-w-[1400px] mx-auto max-md:px-5 max-md:py-20">
       <SectionHead
-        num="04"
         eyebrow="Standards"
         title={
           <>
@@ -51,15 +67,15 @@ export default function Stats() {
         }
         sub="We establish trust through clean code, direct senior communication, and solutions engineered to solve real business problems."
       />
-      <div ref={ref} className="grid grid-cols-4 gap-4 max-md:grid-cols-2">
+      <div ref={ref} className="grid grid-cols-4 gap-4 max-md:grid-cols-2 mt-10">
         {stats.map((s) => (
           <div key={s.label} className="stat bg-surface border border-line rounded-xl py-9 px-7 shadow-s1">
             <div className="text-[clamp(48px,6vw,80px)] font-semibold tracking-[-0.04em] leading-[0.95]">
               <Counter stat={s} run={inView} />
             </div>
             <div className="flex items-center gap-2.5 text-[13px] text-muted mt-4">
-              <span className="w-3 h-[1.5px] bg-coral" />
-              {s.label}
+              <div className="w-2.5 h-px bg-coral" />
+              <span className="max-w-[120px] leading-[1.35]">{s.label}</span>
             </div>
           </div>
         ))}

@@ -209,6 +209,46 @@ export default function Services() {
           </article>
         </Reveal>
 
+        {/* Card 5: Fintech & Trading (Dark, spans 3) */}
+        <Reveal delay={0.32} className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-3">
+          <article className="group relative bg-[#17181C] rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[400px] p-8 lg:p-12 flex flex-col lg:flex-row lg:items-center justify-between shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
+            
+            {/* Abstract Background Visual */}
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+              <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[60%] opacity-20 transition-transform duration-700 ease-smooth group-hover:scale-105 group-hover:opacity-30">
+                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px]" />
+                {/* CSS Candlesticks */}
+                <div className="absolute top-[30%] right-[10%] w-1.5 h-32 bg-coral rounded-full shadow-[0_0_15px_rgba(242,100,25,0.5)]" />
+                <div className="absolute top-[20%] right-[25%] w-1.5 h-24 bg-green-500 rounded-full shadow-[0_0_15px_rgba(16,185,129,0.5)]" />
+                <div className="absolute top-[40%] right-[40%] w-1.5 h-40 bg-coral rounded-full shadow-[0_0_15px_rgba(242,100,25,0.5)]" />
+                <div className="absolute top-[25%] right-[55%] w-1.5 h-20 bg-green-500 rounded-full shadow-[0_0_15px_rgba(16,185,129,0.5)]" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#17181C] via-transparent to-[#17181C] lg:to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#17181C] via-transparent to-transparent" />
+              </div>
+            </div>
+
+            <div className="relative z-10 max-w-[540px]">
+              <h3 className="font-semibold text-[28px] md:text-[32px] lg:text-[42px] tracking-[-0.03em] leading-[1.05] mb-4 text-white">
+                Fintech &amp; Trading Technology
+              </h3>
+              <p className="text-white/80 text-[16px] leading-[1.55] mb-8">
+                Algorithmic trading systems, AI-integrated signal platforms, and MT5 automation for brokers and trading businesses.
+              </p>
+              <a href="/services" className="inline-flex items-center gap-2 font-medium text-[15px] text-coral hover:text-white transition-colors duration-200">
+                Explore capabilities
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+             <div className="relative z-10 mt-12 lg:mt-0 hidden lg:block">
+               {/* Decorative tag/line */}
+               <div className="w-16 h-1 bg-coral rounded-full" />
+            </div>
+          </article>
+        </Reveal>
+
       </div>
     </section>
   );

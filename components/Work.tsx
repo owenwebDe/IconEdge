@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 import SectionHead from "./SectionHead";
 import Image from "next/image";
 
-const categories = ["ALL", "SOFTWARE", "AUTOMATION", "WEB", "AI"];
+const categories = ["ALL", "SOFTWARE", "AUTOMATION", "WEB", "AI", "FINTECH"];
 
 const projects = [
   {
@@ -15,6 +15,14 @@ const projects = [
     tags: ["SOFTWARE", "WEB"],
     year: "2026",
     image: "/images/eatumy.png",
+  },
+  {
+    id: "goldai",
+    name: "GoldAI EA",
+    sub: "Verified Seller — MQL5 Market",
+    tags: ["FINTECH", "AI", "AUTOMATION"],
+    year: "2024",
+    image: null,
   },
   {
     id: "dexnew",
