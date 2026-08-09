@@ -75,7 +75,7 @@ export default function Services() {
       >
         
         {/* Card 1: Business Automation & AI (Dark, spans 2) */}
-        <Reveal className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-2">
+        <Reveal className="max-lg:min-w-[92vw] max-lg:snap-start max-lg:shrink-0 lg:col-span-2">
           <article className="group relative bg-[#17181C] rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[580px] p-8 lg:p-10 flex flex-col justify-between">
             {/* Background 3D Image */}
             <div className="absolute inset-0 pointer-events-none transition-transform duration-700 ease-smooth group-hover:scale-105">
@@ -112,7 +112,7 @@ export default function Services() {
         </Reveal>
 
         {/* Card 2: Custom Software (White, spans 1) */}
-        <Reveal delay={0.08} className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-1">
+        <Reveal delay={0.08} className="max-lg:min-w-[92vw] max-lg:snap-start max-lg:shrink-0 lg:col-span-1">
           <article className="group relative bg-[#F5F3EE] rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[580px] p-8 lg:p-10 flex flex-col justify-between shadow-[inset_0_0_0_1px_rgba(0,0,0,0.05)]">
             {/* Background 3D Image */}
             <div className="absolute inset-x-0 bottom-0 h-3/5 pointer-events-none transition-transform duration-700 ease-smooth group-hover:scale-105">
@@ -146,7 +146,7 @@ export default function Services() {
         </Reveal>
 
         {/* Card 3: Web, E-commerce & Mobile (Orange, spans 1) */}
-        <Reveal delay={0.16} className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-1">
+        <Reveal delay={0.16} className="max-lg:min-w-[92vw] max-lg:snap-start max-lg:shrink-0 lg:col-span-1">
           <article className="group relative bg-coral rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[580px] p-8 lg:p-10 flex flex-col justify-between">
             {/* Background 3D Image */}
             <div className="absolute inset-x-0 bottom-0 h-3/5 pointer-events-none transition-transform duration-700 ease-smooth group-hover:scale-105">
@@ -180,7 +180,7 @@ export default function Services() {
         </Reveal>
 
         {/* Card 4: AI Integrations (Dark, spans 2) */}
-        <Reveal delay={0.24} className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-2">
+        <Reveal delay={0.24} className="max-lg:min-w-[92vw] max-lg:snap-start max-lg:shrink-0 lg:col-span-2">
           <article className="group relative bg-[#17181C] rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[580px] p-8 lg:p-10 flex flex-col justify-between shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
             {/* Background 3D Image */}
             <div className="absolute inset-0 pointer-events-none transition-transform duration-700 ease-smooth group-hover:scale-105">
@@ -216,7 +216,7 @@ export default function Services() {
         </Reveal>
 
         {/* Card 5: Fintech & Trading (Dark, spans 3) */}
-        <Reveal delay={0.32} className="max-lg:min-w-[85vw] max-lg:snap-center max-lg:shrink-0 lg:col-span-3">
+        <Reveal delay={0.32} className="max-lg:min-w-[92vw] max-lg:snap-start max-lg:shrink-0 lg:col-span-3">
           <article className="group relative bg-[#17181C] rounded-[24px] overflow-hidden min-h-[480px] lg:min-h-[400px] p-8 lg:p-12 flex flex-col lg:flex-row lg:items-center justify-between shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
             
             {/* Abstract Background Visual */}
