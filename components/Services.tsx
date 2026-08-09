@@ -26,8 +26,14 @@ export default function Services() {
         if (container.scrollLeft >= maxScroll - 50) {
           container.scrollTo({ left: 0, behavior: "smooth" });
         } else {
-          // Scroll one card width (85vw)
-          container.scrollBy({ left: window.innerWidth * 0.85, behavior: "smooth" });
+          // Find exact scroll amount based on the first card's width + gap (20px)
+          const firstCard = container.children[0] as HTMLElement;
+          if (firstCard) {
+            const snapWidth = firstCard.offsetWidth + 20; 
+            // Calculate current index to prevent drifting if user scrolled manually
+            const currentIndex = Math.round(container.scrollLeft / snapWidth);
+            container.scrollTo({ left: (currentIndex + 1) * snapWidth, behavior: "smooth" });
+          }
         }
       }, 3500); // 3.5 seconds
     };
